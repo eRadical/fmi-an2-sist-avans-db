@@ -56,3 +56,10 @@ Odată ce interfața SQL Developer s-a încărcat, puteți adăuga conexiunea c�
 4. Faceți clic pe **Save** pentru a salva conexiunea, apoi pe **Connect** pentru a deschide foaia de lucru SQL.
 
 Sunteți gata să începeți lucrul! 🚀
+
+---
+
+> ⚠️ **Notă importantă privind suportul tehnic pentru clienți SQL:**
+> Deși vă puteți conecta la baza de date Oracle folosind și alți clienți compatibili (precum DBeaver, DataGrip, VS Code cu extensii, HeidiSQL etc.), **suportul tehnic și asistența în cadrul laboratoarelor vor fi oferite exclusiv pentru Oracle SQL Developer**. 
+> Ecosistemul instrumentelor de baze de date este vast și prezintă variații mari de configurare (drivere JDBC specifice, setări TNS, encodare etc.), motiv pentru care standardizarea pe un singur instrument oficial asigură o desfășurare eficientă și uniformă a orelor. 🙈 😅
+> 

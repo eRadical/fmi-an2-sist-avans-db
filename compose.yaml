@@ -1,0 +1,19 @@
+volumes:
+  oradata_unibuc_fmi:
+    name: unibuc-fmi
+
+services:
+  oracle19c:
+    image: container-registry.oracle.com/database/enterprise:19.3.0.0
+    container_name: oracle19c
+    stop_grace_period: 2m
+    environment:
+      - INIT_SGA_SIZE=1536 
+      - ORACLE_SID=XE
+      - ORACLE_PDB=ORCLPDB1
+      - ORACLE_PWD=my0Complicated1Pass2That3You4Should5Change
+    ports:
+      - "1521:1521"
+      - "5500:5500"
+    volumes:
+      - oradata_unibuc_fmi:/opt/oracle/oradata:Z
